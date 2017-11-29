@@ -2,3 +2,4 @@ This is a testing web service of Tangut repository.
 
 2017.11.27 - settings
 2017.11.28 - simple select and insert(glossary)
+2017.11.29 - try OOP and test db connection and select function
