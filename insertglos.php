@@ -31,27 +31,29 @@ $propername = $_POST['pn']; //專有名詞
 $combineword = $_POST['cw']; //複合詞
 $notes = $_POST['notes']; //備註
 
-echo $russian."<br>";
-echo $meaning."<br>";
-echo $functionword."<br>";
-echo $transliterate."<br>";
-echo $unknownword."<br>";
-echo $propername."<br>";
-echo $combineword."<br>";
-echo $notes."<br>";
-
 //為了幫每個對譯漢字都有個編號，在這裡處理俄文編號之後添加的流水號
 $sql = "SELECT russian FROM `glossary` where russian = $russian";
 $result = mysqli_query($conn, $sql);
 $russian_serial = $russian."-".(String)(mysqli_num_rows($result)+1);
-echo"資料庫流水號=".$russian_serial."<br>";
-
 
 //執行insert
+
+
 $sql = "INSERT INTO glossary(russian_serial, russian, meaning,functionword,transliterate,unknownword,propername,combineword,notes,original) VALUES ('$russian_serial','$russian','$meaning','$functionword','$transliterate','$unknownword','$propername','$combineword','$notes','龔')";
+
 
 if (mysqli_query($conn, $sql)) {
     echo "輸入完成";
+    //顯示結果
+    echo "資料庫流水號：".$russian_serial."<br>";
+    echo "俄文編號：".$russian."<br>";
+    echo "對譯漢字：".$meaning."<br>";
+    echo $functionword."<br>";
+    echo $transliterate."<br>";
+    echo $unknownword."<br>";
+    echo $propername."<br>";
+    echo $combineword."<br>";
+    echo $notes."<br>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
