@@ -1,15 +1,20 @@
 <?php
-include('GlossaryBean.php');
-include('ConnectDB.php');
+include('GlossaryBean.php'); //引入bean
+include('ConnectDB.php'); //引入DB connection資訊
 
-$glossaryBean = new GlossaryBean;
-$connectDB = new ConnectDB;
+include('../select.php');
 
 
+//$russian = $_POST['russian'];
+//echo "您輸入的俄文編號是$russian<br>";
+
+function select($russian){
+    $glossaryBean = new GlossaryBean;
+    $connectDB = new ConnectDB;
 //查詢
-$query = "SELECT russian_serial, g.russian, `character`, phonetics, meaning FROM glossary g JOIN tangut t ON g.russian = t.russian";
-$conn = $connectDB->sql_connect();
-$result = mysqli_query($conn,$query);
+    $query = "SELECT russian_serial, g.russian, `character`, phonetics, meaning FROM glossary g JOIN tangut t ON g.russian = t.russian where g.russian = $russian";
+    $conn = $connectDB->sql_connect();
+    $result = mysqli_query($conn,$query);
 
 if (mysqli_num_rows($result) > 0) {
     echo "<table style='border:1px solid #004085'><tr style='border:1px solid #004085'><th style='border:1px solid #004085'>流水號</th><th style='border:1px solid #004085'>俄文編號</th><th style='border:1px solid #004085'>西夏字</th><th style='border:1px solid #004085'>擬音</th><th style='border:1px solid #004085'>對譯漢字</th></tr>";
@@ -27,5 +32,8 @@ if (mysqli_num_rows($result) > 0) {
 } else {
     echo "0 results";
 }
+
+
 $conn->close();
+}
 ?>
