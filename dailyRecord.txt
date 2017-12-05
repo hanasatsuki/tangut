@@ -4,3 +4,5 @@ This is a testing web service of Tangut repository.
 2017.11.28 - simple select and insert(glossary)
 2017.11.29 - try OOP and test db connection and select function
 2017.11.30 - fix MVC structure and test the function
+2017.12.04 - fix MVC 
+2017.12.05 - add revise button and Javascript php (not work) 
