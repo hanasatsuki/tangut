@@ -1,6 +1,6 @@
 <?php
 include('Controller.php');
-$russ = $_POST['$russian_serial'];
+$russ = $_GET['$russian_serial_while'];
 echo "russ = $russ";
 
 ?>
