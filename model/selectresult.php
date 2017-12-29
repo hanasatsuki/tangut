@@ -11,7 +11,7 @@ include('../header.php');
 
 <?php
 $russian = $_POST['russian'];
-echo "您輸入的俄文編號是$russian<br>";
+//echo "<p style='margin:0 80px;padding:0 80px;'>您輸入的俄文編號是".$russian."</p>";
 
 include('cfg.php');
 

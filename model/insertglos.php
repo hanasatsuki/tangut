@@ -38,32 +38,12 @@ $result = mysqli_query($conn, $sql);
 $russian_serial = $russian."-".(String)(mysqli_num_rows($result)+1);
 
 //執行insert
-
 $result_of_insert = insert($russian_serial,$russian,$meaning,$functionword,$transliterate,$unknownword,$propername,$combineword,$notes);
-echo "RESULT_OF_INSERT====".$result_of_insert;
-/*
 
- $sql = "INSERT INTO glossary(russian_serial,russian,meaning,functionword,transliterate,unknownword,propername,combineword,notes,original) VALUES ('$russian_serial','$russian','$meaning','$functionword','$transliterate','$unknownword','$propername','$combineword','$notes','龔')";
+$russian = substr($russian_serial,0,4);
+select_by_russian($russian);
+echo "成功輸入".$result_of_insert."筆資料!";
 
-
-if (mysqli_query($conn, $sql)) {
-    echo "輸入完成";
-    //顯示結果
-    echo "資料庫流水號：".$russian_serial."<br>";
-    echo "俄文編號：".$russian."<br>";
-    echo "對譯漢字：".$meaning."<br>";
-    echo $functionword."<br>";
-    echo $transliterate."<br>";
-    echo $unknownword."<br>";
-    echo $propername."<br>";
-    echo $combineword."<br>";
-    echo $notes."<br>";
-} else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-}
-
-mysqli_close($conn);
-*/
 ?>
 
 

@@ -1,6 +1,6 @@
 <?php
 
-include('../header.php');
+include('select.php'); //查詢
 ?>
 
 <br>
@@ -26,7 +26,7 @@ include('../header.php');
     }
 
 </script>
-<div style="margin:20px 40px">
+<div style="margin:0 80px">
     <h4>西夏文對譯漢字輸入介面</h4>
 <form action="insertglos.php" method="post">
     俄文編號：<input id="russiannumber" type="text" name="russian" size="4" onblur="validNum()"> (皆為四碼數字)<br>

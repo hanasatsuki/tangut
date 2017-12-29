@@ -10,161 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="select.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/select.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cfg/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <marker date="1514529978855" expanded="true" signature="2086:2136" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateglos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/updateglos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/insert.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertglos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/insertglos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-              <folding>
-                <marker date="1514530547235" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
-                <marker date="1514530547235" expanded="true" signature="1858:2126" ph="INSERT INTO glossary... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectresult.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/selectresult.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-              <folding>
-                <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-                <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-                <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-                <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-                <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-                <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-                <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlossaryDB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cfg/GlossaryDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <marker date="1514530118024" expanded="true" signature="255:375" ph="SELECT russi... glossary" />
-                <marker date="1514530118024" expanded="true" signature="255:393" ph="SELECT russi... glossary" />
-                <marker date="1514530118024" expanded="true" signature="255:394" ph="SELECT russi... glossary" />
-                <marker date="1514530118024" expanded="true" signature="623:647" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="660:684" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="697:721" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="742:766" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="788:812" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="833:857" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="877:901" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1319:1343" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1381:1405" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1525:1549" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1655:1679" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1694:1709" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1826:1850" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="1960:1984" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="2090:2114" ph="..." />
-                <marker date="1514530118024" expanded="true" signature="2538:2707" ph="SELECT russi... glossary" />
-                <marker date="1514530118024" expanded="true" signature="3063:3132" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3133" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3147" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3175" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3200" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3211" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3212" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3225" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3226" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3245" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3264" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3266" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3297" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3298" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3299" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3063:3314" ph="UPDATE gloss... " />
-                <marker date="1514530118024" expanded="true" signature="3772:4040" ph="INSERT INTO glossary... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,13 +44,15 @@
         <option value="$PROJECT_DIR$/cfg/revise.php" />
         <option value="$PROJECT_DIR$/cfg/updateglos.php" />
         <option value="$PROJECT_DIR$/insertglos.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/model/update.php" />
+        <option value="$PROJECT_DIR$/model/deleteglos.php" />
+        <option value="$PROJECT_DIR$/model/updateglos.php" />
+        <option value="$PROJECT_DIR$/model/delete.php" />
         <option value="$PROJECT_DIR$/model/select.php" />
+        <option value="$PROJECT_DIR$/cfg/GlossaryDB.php" />
         <option value="$PROJECT_DIR$/model/selectresult.php" />
         <option value="$PROJECT_DIR$/cfg/Controller.php" />
-        <option value="$PROJECT_DIR$/cfg/GlossaryDB.php" />
-        <option value="$PROJECT_DIR$/model/update.php" />
-        <option value="$PROJECT_DIR$/model/updateglos.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/model/insert.php" />
         <option value="$PROJECT_DIR$/model/insertglos.php" />
       </list>
@@ -221,7 +69,7 @@
       <path value="C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\project" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="720" />
     <option name="width" value="720" />
     <option name="height" value="860" />
@@ -274,6 +122,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\project\model" />
       <recent name="C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -304,6 +153,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ad1efd8d-64d3-4370-a12e-712868f35fa6" name="Default" comment="" />
@@ -315,18 +167,17 @@
       <workItem from="1511852719510" duration="7417000" />
       <workItem from="1511919995140" duration="26584000" />
       <workItem from="1512551764353" duration="382000" />
-      <workItem from="1514513585015" duration="14173000" />
+      <workItem from="1514513585015" duration="22015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57115000" />
+    <option name="totallyTimeSpent" value="64957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -356,7 +207,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/cfg/Controller.php</url>
-          <line>9</line>
+          <line>14</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -368,7 +219,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -376,9 +229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <marker date="1514529978855" expanded="true" signature="2086:2136" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,26 +246,28 @@
         <state relative-caret-position="575">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
-            <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-            <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:249" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:265" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="326:340" ph="SELECT russi... tangutglos" />
+            <marker date="1514538307523" expanded="true" signature="326:446" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:463" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:464" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:474" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="575:599" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="612:636" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="649:673" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="694:718" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="740:764" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="785:809" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="829:853" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="976:1000" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1030:1054" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1115:1139" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1193:1217" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1243" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1247" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1310:1334" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1390:1414" ph="..." />
           </folding>
         </state>
       </provider>
@@ -424,42 +277,54 @@
         <state relative-caret-position="75">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1514530118024" expanded="true" signature="255:375" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:393" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:394" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="623:647" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="660:684" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="697:721" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="742:766" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="788:812" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="833:857" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="877:901" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1319:1343" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1381:1405" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1525:1549" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1655:1679" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1694:1709" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1826:1850" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1960:1984" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2090:2114" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2538:2707" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="3063:3132" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3133" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3147" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3175" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3200" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3211" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3212" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3225" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3226" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3245" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3264" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3266" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3297" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3298" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3299" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3314" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3772:4040" ph="INSERT INTO glossary... " />
+            <marker date="1514538159994" expanded="true" signature="191:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="311:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="433:572" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:809" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:810" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="895:1041" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1126:1270" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1352:1495" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1579:1723" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="2073:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2087:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2124:2148" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2161:2185" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2206:2230" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2252:2276" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2297:2321" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2341:2365" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2783:2807" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2845:2869" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2989:3013" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3119:3143" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3158:3173" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3290:3314" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3424:3448" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3554:3578" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3679:3703" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="4129:4298" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="4654:4723" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4724" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4738" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4766" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4791" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4802" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4803" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4816" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4817" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4836" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4855" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4857" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4888" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4889" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4890" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4905" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="5363:5631" ph="INSERT INTO glossary... " />
+            <marker date="1514538159994" expanded="true" signature="6033:6069" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6075" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6076" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6092" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -469,8 +334,7 @@
         <state relative-caret-position="1125">
           <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding>
-            <marker date="1514530547235" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
-            <marker date="1514530547235" expanded="true" signature="1858:2126" ph="INSERT INTO glossary... " />
+            <marker date="1514538488288" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
           </folding>
         </state>
       </provider>
@@ -479,7 +343,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -487,9 +353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1514529978855" expanded="true" signature="2086:2136" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -506,26 +370,28 @@
         <state relative-caret-position="575">
           <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
-            <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-            <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:249" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:265" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="326:340" ph="SELECT russi... tangutglos" />
+            <marker date="1514538307523" expanded="true" signature="326:446" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:463" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:464" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:474" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="575:599" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="612:636" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="649:673" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="694:718" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="740:764" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="785:809" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="829:853" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="976:1000" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1030:1054" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1115:1139" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1193:1217" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1243" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1247" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1310:1334" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1390:1414" ph="..." />
           </folding>
         </state>
       </provider>
@@ -535,42 +401,54 @@
         <state relative-caret-position="75">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1514530118024" expanded="true" signature="255:375" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:393" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:394" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="623:647" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="660:684" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="697:721" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="742:766" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="788:812" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="833:857" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="877:901" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1319:1343" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1381:1405" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1525:1549" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1655:1679" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1694:1709" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1826:1850" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1960:1984" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2090:2114" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2538:2707" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="3063:3132" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3133" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3147" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3175" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3200" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3211" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3212" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3225" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3226" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3245" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3264" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3266" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3297" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3298" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3299" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3314" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3772:4040" ph="INSERT INTO glossary... " />
+            <marker date="1514538159994" expanded="true" signature="191:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="311:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="433:572" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:809" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:810" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="895:1041" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1126:1270" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1352:1495" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1579:1723" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="2073:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2087:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2124:2148" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2161:2185" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2206:2230" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2252:2276" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2297:2321" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2341:2365" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2783:2807" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2845:2869" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2989:3013" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3119:3143" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3158:3173" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3290:3314" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3424:3448" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3554:3578" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3679:3703" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="4129:4298" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="4654:4723" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4724" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4738" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4766" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4791" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4802" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4803" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4816" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4817" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4836" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4855" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4857" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4888" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4889" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4890" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4905" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="5363:5631" ph="INSERT INTO glossary... " />
+            <marker date="1514538159994" expanded="true" signature="6033:6069" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6075" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6076" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6092" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -580,8 +458,7 @@
         <state relative-caret-position="1125">
           <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding>
-            <marker date="1514530547235" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
-            <marker date="1514530547235" expanded="true" signature="1858:2126" ph="INSERT INTO glossary... " />
+            <marker date="1514538488288" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
           </folding>
         </state>
       </provider>
@@ -598,7 +475,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,26 +486,28 @@
         <state relative-caret-position="350">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-            <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:249" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:265" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="326:340" ph="SELECT russi... tangutglos" />
+            <marker date="1514538307523" expanded="true" signature="326:446" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:463" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:464" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:474" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="575:599" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="612:636" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="649:673" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="694:718" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="740:764" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="785:809" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="829:853" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="976:1000" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1030:1054" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1115:1139" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1193:1217" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1243" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1247" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1310:1334" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1390:1414" ph="..." />
           </folding>
         </state>
       </provider>
@@ -644,8 +525,7 @@
         <state relative-caret-position="925">
           <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
-            <marker date="1514530547235" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
-            <marker date="1514530547235" expanded="true" signature="1858:2126" ph="INSERT INTO glossary... " />
+            <marker date="1514538488288" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
           </folding>
         </state>
       </provider>
@@ -670,7 +550,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,26 +561,28 @@
         <state relative-caret-position="575">
           <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-            <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:249" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:265" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="326:340" ph="SELECT russi... tangutglos" />
+            <marker date="1514538307523" expanded="true" signature="326:446" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:463" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:464" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:474" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="575:599" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="612:636" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="649:673" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="694:718" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="740:764" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="785:809" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="829:853" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="976:1000" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1030:1054" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1115:1139" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1193:1217" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1243" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1247" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1310:1334" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1390:1414" ph="..." />
           </folding>
         </state>
       </provider>
@@ -782,17 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/insertglos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <marker date="1514530547235" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
-            <marker date="1514530547235" expanded="true" signature="1858:2126" ph="INSERT INTO glossary... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -801,119 +674,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/selectresult.php">
+    <entry file="file://$PROJECT_DIR$/model/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <marker date="1514529854687" expanded="true" signature="279:293" ph="SELECT russi... tangutglos" />
-            <marker date="1514529854687" expanded="true" signature="279:399" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:416" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:417" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="279:427" ph="SELECT russi... glossary" />
-            <marker date="1514529854687" expanded="true" signature="528:552" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="565:589" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="602:626" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="647:671" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="693:717" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="738:762" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="782:806" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="929:953" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="983:1007" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1068:1092" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1146:1170" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1196" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1185:1200" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1263:1287" ph="..." />
-            <marker date="1514529854687" expanded="true" signature="1343:1367" ph="..." />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cfg/GlossaryDB.php">
+    <entry file="file://$PROJECT_DIR$/model/deleteglos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <marker date="1514530118024" expanded="true" signature="255:375" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:393" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="255:394" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="623:647" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="660:684" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="697:721" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="742:766" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="788:812" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="833:857" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="877:901" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1319:1343" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1381:1405" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1525:1549" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1655:1679" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1694:1709" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1826:1850" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="1960:1984" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2090:2114" ph="..." />
-            <marker date="1514530118024" expanded="true" signature="2538:2707" ph="SELECT russi... glossary" />
-            <marker date="1514530118024" expanded="true" signature="3063:3132" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3133" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3147" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3175" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3200" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3211" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3212" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3225" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3226" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3245" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3264" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3266" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3297" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3298" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3299" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3063:3314" ph="UPDATE gloss... " />
-            <marker date="1514530118024" expanded="true" signature="3772:4040" ph="INSERT INTO glossary... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="275">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/updateglos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="475">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cfg/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <marker date="1514529978855" expanded="true" signature="2086:2136" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/select.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/selectresult.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1514538307523" expanded="true" signature="236:249" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="236:265" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="326:340" ph="SELECT russi... tangutglos" />
+            <marker date="1514538307523" expanded="true" signature="326:446" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:463" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:464" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="326:474" ph="SELECT russi... glossary" />
+            <marker date="1514538307523" expanded="true" signature="575:599" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="612:636" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="649:673" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="694:718" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="740:764" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="785:809" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="829:853" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="976:1000" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1030:1054" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1115:1139" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1193:1217" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1243" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1232:1247" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1310:1334" ph="..." />
+            <marker date="1514538307523" expanded="true" signature="1390:1414" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg/GlossaryDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1514538159994" expanded="true" signature="191:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="311:345" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="433:572" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:809" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="665:810" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="895:1041" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1126:1270" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1352:1495" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="1579:1723" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="2073:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2087:2111" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2124:2148" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2161:2185" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2206:2230" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2252:2276" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2297:2321" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2341:2365" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2783:2807" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2845:2869" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="2989:3013" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3119:3143" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3158:3173" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3290:3314" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3424:3448" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3554:3578" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="3679:3703" ph="..." />
+            <marker date="1514538159994" expanded="true" signature="4129:4298" ph="SELECT russi... glossary" />
+            <marker date="1514538159994" expanded="true" signature="4654:4723" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4724" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4738" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4766" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4791" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4802" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4803" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4816" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4817" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4836" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4855" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4857" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4888" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4889" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4890" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="4654:4905" ph="UPDATE gloss... " />
+            <marker date="1514538159994" expanded="true" signature="5363:5631" ph="INSERT INTO glossary... " />
+            <marker date="1514538159994" expanded="true" signature="6033:6069" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6075" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6076" ph="DELETE FROM " />
+            <marker date="1514538159994" expanded="true" signature="6033:6092" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/insertglos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <marker date="1514538488288" expanded="true" signature="1484:1531" ph="SELECT russi... glossary" />
+          </folding>
         </state>
       </provider>
     </entry>

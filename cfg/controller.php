@@ -1,63 +1,37 @@
 <?php
 include('GlossaryDB.php');
 
+$advanced = $_POST['advanced'];
 
-$russian = $_POST['russian'];
-
-if(is_numeric($russian)){
-    echo "您輸入的俄文編號是$russian<br>";
-    select($russian);
-}
-if(!is_numeric($russian)){
-    echo "您輸入的字串是$russian";
-}
-/*
-if(strlen($russian)==4){
-    $result = select($russian);
-
-    if (mysqli_num_rows($result) > 0) {
-        echo "<form action='update.php' method='get'>";
-        echo "<table style='border:1px solid #004085'><tr style='border:1px solid #004085'><th style='border:1px solid #004085'>流水號</th><th style='border:1px solid #004085'>俄文編號</th><th style='border:1px solid #004085'>西夏字</th><th style='border:1px solid #004085'>擬音</th><th style='border:1px solid #004085'>對譯漢字</th></tr>";
-        // output data of each row
-        while($row = mysqli_fetch_assoc($result)) {
-            $russian_serial_while=$row['russian_serial'];
-            $russian_while = $row["russian"];
-            $character_while = $row["character"];
-            $phonetics_while = $row["phonetics"];
-            $meaning_while = $row["meaning"];
-
-            echo "<tr style='border:1px solid #004085'>";
-            echo "<td style='border:1px solid #004085'>".$row["russian_serial"]."<input type='hidden' name='$russian_serial_while' ></td>";
-            echo "<td style='border:1px solid #004085'>".$row["russian"]."<input type='hidden' name='$russian_while' ></td>";
-            echo "<td style='border:1px solid #004085'><text styLe='font-family:西夏文'>".$row["character"]."</text><input type='hidden' name='$character_while' ></td>";
-            echo "<td style='border:1px solid #004085'>".$row["phonetics"]."<input type='hidden' name='$phonetics_while' ></td>";
-            echo "<td style='border:1px solid #004085'>".$row["meaning"]."<input type='hidden' name='$meaning_while' ></td>";
-            echo "<td style='border:1px solid #004085'><a href=update.php?m=$russian_serial_while>更改</a></td>";
-            echo "</tr>";
+if($advanced!=null) {
+    if (is_numeric($advanced)) {
+        if (strlen($advanced) == 4 and $advanced < 5800 and $advanced > 0) {
+            //echo "您輸入的俄文編號是$advanced<br>";
+            $russian = $advanced;
+            select_by_russian($russian);
+        } else {
+            echo "請輸入正確格式";
         }
-        echo "</table>";
-        echo "</form>";
-    } else {
-        echo "0 results";
     }
-}else{
-    echo "請輸入正確格式";
+    else if($advanced=="虛詞"){
+        select_if_functionword();
+    }
+    else if($advanced=="對音"){
+        select_if_transliterate();
+    }
+    else if($advanced=="意義不明"){
+        select_if_unknownword();
+    }
+    else if($advanced=="專名"){
+        select_if_propername();
+    }
+    else if($advanced=="複合詞"){
+        select_if_combineword();
+    }
+    else {
+        echo "您要查詢「".$advanced."」<br>";
+        $meaning = $advanced;
+        select_by_meaning($advanced);
+    }
 }
-
-*/
 ?>
-
-
-<script>
-
-    function revise() {
-        var rev = document.getElementsByTagName('input');
-        var rev_id = rev[2].id;
-        //alert(rev_id);
-        document.getElementsByTagName('input')[2].id.action='revise.php?id='rev_id;
-
-
-        rev_id.submit();
-    }
-
-</script>
