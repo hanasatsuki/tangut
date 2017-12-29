@@ -15,10 +15,10 @@
     <div class="container-fluid">
 <ul class="nav nav-tabs">
     <li style="margin:0 10px;"><a href="#">簡介</a></li>
-    <li style="margin:0 10px;"><a href="/project/select.php">西夏字典</a></li>
+    <li style="margin:0 10px;"><a href="/project/model/select.php">西夏字典</a></li>
     <li style="margin:0 10px;"><a href="#">西夏文本</a></li>
     <li style="margin:0 10px;"><a href="#">文字編輯</a></li>
-    <li style="margin:0 10px;"><a href="/project/insert.php">漢譯輸入</a></li>
+    <li style="margin:0 10px;"><a href="/project/model/insert.php">漢譯輸入</a></li>
 </ul>
 </div>
 </div>
