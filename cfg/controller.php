@@ -25,7 +25,7 @@ if(strlen($russian)==4){
             echo "<td style='border:1px solid #004085'><text styLe='font-family:西夏文'>".$row["character"]."</text><input type='hidden' name='$character_while' ></td>";
             echo "<td style='border:1px solid #004085'>".$row["phonetics"]."<input type='hidden' name='$phonetics_while' ></td>";
             echo "<td style='border:1px solid #004085'>".$row["meaning"]."<input type='hidden' name='$meaning_while' ></td>";
-            echo "<td style='border:1px solid #004085'><input type='submit' value='revise' action='revise.php'></td>";
+            echo "<td style='border:1px solid #004085'><a href=revise.php?m=$russian_serial_while>更改</a></td>";
             echo "</tr>";
         }
         echo "</table>";
