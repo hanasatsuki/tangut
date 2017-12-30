@@ -9,6 +9,7 @@ include('../header.php');
 特殊查詢：
     <input type="radio" value="虛詞" name="advanced">虛詞　
     <input type="radio" value="對音" name="advanced">對音　
+    <input type="radio" value="借詞" name="advanced">借詞　
     <input type="radio" value="意義不明" name="advanced">意義不明　
     <input type="radio" value="專名" name="advanced">專名　
     <input type="radio" value="複合詞" name="advanced">複合詞　

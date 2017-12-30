@@ -28,6 +28,11 @@ function select_if_transliterate(){
     select($query);
 }
 
+//查詢是否借詞
+function select_if_borrowword(){
+    $query = "SELECT russian_serial, g.russian, `character`, phonetics, meaning FROM glossary g JOIN tangut t ON g.russian = t.russian where g.borrowword = 1";
+    select($query);
+}
 //查詢是否意義不明
 function select_if_unknownword(){
     $query = "SELECT russian_serial, g.russian, `character`, phonetics, meaning FROM glossary g JOIN tangut t ON g.russian = t.russian where g.unknownword = 1";
@@ -58,11 +63,12 @@ function select($query){
             echo "<table style='margin:0 80px;border:1px solid #004085'><tr style='border:1px solid #004085'><th style='border:1px solid #004085'>流水號</th><th style='border:1px solid #004085'>俄文編號</th><th style='border:1px solid #004085'>西夏字</th><th style='border:1px solid #004085'>擬音</th><th style='border:1px solid #004085'>對譯漢字</th></tr>";
             // output data of each row
             while($row = mysqli_fetch_assoc($result)) {
-                $russian_serial_while=$row['russian_serial'];
+                $russian_serial_while=$row["russian_serial"];
                 $russian_while = $row["russian"];
                 $character_while = $row["character"];
                 $phonetics_while = $row["phonetics"];
                 $meaning_while = $row["meaning"];
+
 
                 echo "<tr style='border:1px solid #004085'>";
                 echo "<td style='border:1px solid #004085'>".$row["russian_serial"]."<input type='hidden' name='$russian_serial_while' ></td>";
@@ -88,7 +94,7 @@ $conn->close();
 function select_by_russian_serial($russian_serial){
     $glossaryBean = new GlossaryBean;
     $connectDB = new ConnectDB;
-    $query = "SELECT russian_serial,russian,meaning,functionword,transliterate,unknownword,propername,combineword,notes,original FROM `glossary` WHERE russian_serial='$russian_serial'";
+    $query = "SELECT russian_serial,russian,meaning,functionword,transliterate,borrowword,unknownword,propername,combineword,notes,original FROM `glossary` WHERE russian_serial='$russian_serial'";
     $conn = $connectDB->sql_connect();
     $result = mysqli_query($conn,$query);
 
@@ -97,10 +103,10 @@ function select_by_russian_serial($russian_serial){
 }
 
 //修改
-function update($russian_serial, $meaning, $functionword, $transliterate, $unknownword, $propername, $combineword, $notes, $original){
+function update($russian_serial, $meaning, $functionword, $transliterate, $borrowword, $unknownword, $propername, $combineword, $notes, $original){
     $glossaryBean = new GlossaryBean();
     $connectDB = new ConnectDB();
-    $query = "UPDATE glossary SET meaning='$meaning', `functionword`=$functionword, transliterate=$transliterate, unknownword=$unknownword, propername=$propername, combineword=$combineword, notes='$notes', original='$original' WHERE russian_serial='$russian_serial'";
+    $query = "UPDATE glossary SET meaning='$meaning', `functionword`=$functionword, transliterate=$transliterate, borrowword=$borrowword, unknownword=$unknownword, propername=$propername, combineword=$combineword, notes='$notes', original='$original' WHERE russian_serial='$russian_serial'";
     $conn = $connectDB -> sql_connect();
     $result_of_update = mysqli_query($conn,$query);
 
@@ -112,10 +118,10 @@ function update($russian_serial, $meaning, $functionword, $transliterate, $unkno
 }
 
 //新增
-function insert($russian_serial,$russian,$meaning,$functionword,$transliterate,$unknownword,$propername,$combineword,$notes){
+function insert($russian_serial,$russian,$meaning,$functionword,$transliterate,$borrowword,$unknownword,$propername,$combineword,$notes){
     $glossaryBean = new GlossaryBean();
     $connectDB = new ConnectDB();
-    $query = "INSERT INTO glossary(russian_serial,russian,meaning,functionword,transliterate,unknownword,propername,combineword,notes,original) VALUES ('$russian_serial','$russian','$meaning','$functionword','$transliterate','$unknownword','$propername','$combineword','$notes','龔')";
+    $query = "INSERT INTO glossary(russian_serial,russian,meaning,functionword,transliterate,borrowword,unknownword,propername,combineword,notes,original) VALUES ('$russian_serial','$russian','$meaning','$functionword','$transliterate','$borrowword','$unknownword','$propername','$combineword','$notes','龔')";
     $conn = $connectDB -> sql_connect();
     $result_of_insert = mysqli_query($conn,$query);
     if ($result_of_insert == 1) {

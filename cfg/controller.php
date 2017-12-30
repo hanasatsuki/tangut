@@ -5,8 +5,9 @@ $advanced = $_POST['advanced'];
 
 if($advanced!=null) {
     if (is_numeric($advanced)) {
+
         if (strlen($advanced) == 4 and $advanced < 5800 and $advanced > 0) {
-            //echo "您輸入的俄文編號是$advanced<br>";
+            echo "您輸入的俄文編號是$advanced<br>";
             $russian = $advanced;
             select_by_russian($russian);
         } else {
@@ -18,6 +19,9 @@ if($advanced!=null) {
     }
     else if($advanced=="對音"){
         select_if_transliterate();
+    }
+    else if($advanced=="借詞"){
+        select_if_borrowword();
     }
     else if($advanced=="意義不明"){
         select_if_unknownword();
