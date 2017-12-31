@@ -37,6 +37,14 @@ $row = mysqli_fetch_assoc($result);?>
             </td>
         </tr>
         <tr>
+            <td>是否借詞</td>
+            <td>
+                <?php if ($row["borrowword"]==1){
+                    echo '<input type="radio" value="1" name="bw" checked>是 <input type="radio" value="0" name="bw">否';}else{
+                    echo '<input type="radio" value="1" name="bw">是 <input type="radio" value="0" name="bw" checked>否';} ?>
+            </td>
+        </tr>
+        <tr>
             <td>是否意義不明</td>
             <td>
                 <?php if ($row["unknownword"]==1){
