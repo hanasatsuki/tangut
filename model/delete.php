@@ -30,6 +30,24 @@ $row = mysqli_fetch_assoc($result);?>
             </td>
         </tr>
         <tr>
+            <td>是否動詞詞頭</td>
+            <td>
+                <?php if ($row["verbaffix"]==1){
+                    echo '是';
+                }else{
+                    echo '否';} ?>
+            </td>
+        </tr>
+        <tr>
+            <td>是否人稱詞</td>
+            <td>
+                <?php if ($row["personword"]==1){
+                    echo '是';
+                }else{
+                    echo '否';} ?>
+            </td>
+        </tr>
+        <tr>
             <td>是否對音</td>
             <td>
                 <?php if ($row["transliterate"]==1){

@@ -17,6 +17,12 @@ if($advanced!=null) {
     else if($advanced=="虛詞"){
         select_if_functionword();
     }
+    else if($advanced=="動詞詞綴"){
+        select_if_verbaffix();
+    }
+    else if($advanced=="人稱詞"){
+        select_if_personword();
+    }
     else if($advanced=="對音"){
         select_if_transliterate();
     }

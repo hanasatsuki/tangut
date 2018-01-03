@@ -23,19 +23,33 @@ $row = mysqli_fetch_assoc($result);?>
         <tr>
             <td>是否虛字</td>
             <td>
-                <?php if ($row["functionword"]==1){
+                <?php if ($row["transliterate"]==1){
                     echo '<input type="radio" value="1" name="fc" checked>是 <input type="radio" value="0" name="fc">否';}else{
                     echo '<input type="radio" value="1" name="fc">是 <input type="radio" value="0" name="fc" checked>否';} ?>
             </td>
         </tr>
         <tr>
-            <td>是否對音</td>
+            <td>是否動詞詞綴(含詞頭、詞尾)</td>
             <td>
-                <?php if ($row["transliterate"]==1){
-                    echo '<input type="radio" value="1" name="ph" checked>是 <input type="radio" value="0" name="ph">否';}else{
-                    echo '<input type="radio" value="1" name="ph">是 <input type="radio" value="0" name="ph" checked>否';} ?>
+                <?php if ($row["verbaffix"]==1){
+                    echo '<input type="radio" value="1" name="va" checked>是 <input type="radio" value="0" name="va">否';}else{
+                    echo '<input type="radio" value="1" name="va">是 <input type="radio" value="0" name="va" checked>否';} ?>
             </td>
         </tr>
+        <tr>
+            <td>是否人稱詞(含主語或賓語呼應)</td>
+            <td>
+                <?php if ($row["personword"]==1){
+                    echo '<input type="radio" value="1" name="pw" checked>是 <input type="radio" value="0" name="pw">否';}else{
+                    echo '<input type="radio" value="1" name="pw">是 <input type="radio" value="0" name="pw" checked>否';} ?>
+            </td>
+        </tr>
+        <td>是否對音</td>
+        <td>
+            <?php if ($row["transliterate"]==1){
+                echo '<input type="radio" value="1" name="ph" checked>是 <input type="radio" value="0" name="ph">否';}else{
+                echo '<input type="radio" value="1" name="ph">是 <input type="radio" value="0" name="ph" checked>否';} ?>
+        </td>
         <tr>
             <td>是否借詞</td>
             <td>

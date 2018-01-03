@@ -8,6 +8,8 @@
     俄文編號：<input id="russiannumber" type="text" name="russian" size="4" onblur="validNum()"> (皆為四碼數字)<br>
     對譯漢字：<input type="text" name="meaning" size="4"> (儘可能輸入一個漢字就好)<br>
     是否為虛詞：<input type="radio" value="1" name="fc">是　<input type="radio" value="0" name="fc" checked>否<br>
+    是否為動詞詞綴(含詞頭、詞尾)：<input type="radio" value="1" name="va">是　<input type="radio" value="0" name="va" checked>否<br>
+    是否為人稱詞(含主語呼應、賓語呼應)：<input type="radio" value="1" name="pw">是　<input type="radio" value="0" name="pw" checked>否<br>
     是否為對音：<input type="radio" value="1" name="ph">是　<input type="radio" value="0" name="ph" checked>否<br>
     是否為借詞：<input type="radio" value="1" name="bw">是　<input type="radio" value="0" name="bw" checked>否<br>
     是否意義不明：<input type="radio" value="1" name="uk">是　<input type="radio" value="0" name="uk" checked>否<br>
@@ -27,6 +29,8 @@ include('../cfg.php');
 $russian = $_POST['russian']; //俄文編號
 $meaning = $_POST['meaning']; //對譯漢字
 $functionword = $_POST['fc']; //虛詞
+$verbaffix = $_POST['va']; //動詞詞綴(含詞頭、詞尾)
+$personword = $_POST['pw']; //人稱詞(含呼應)
 $transliterate = $_POST['ph']; //對音
 $borrowword = $_POST['bw'];  //借詞
 $unknownword = $_POST['uk']; //未知
@@ -40,7 +44,7 @@ $result = mysqli_query($conn, $sql);
 $russian_serial = $russian."-".(String)(mysqli_num_rows($result)+1);
 
 //執行insert
-$result_of_insert = insert($russian_serial,$russian,$meaning,$functionword,$transliterate,$borrowword,$unknownword,$propername,$combineword,$notes);
+$result_of_insert = insert($russian_serial,$russian,$meaning,$functionword,$verbaffix,$personword,$transliterate,$borrowword,$unknownword,$propername,$combineword,$notes);
 
 $russian = substr($russian_serial,0,4);
 select_by_russian($russian);
